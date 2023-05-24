@@ -35,4 +35,5 @@ const userName: User = {
 // array
 const array: number[] = [1, 2, 3, 4];
 
-const array1 = [1, 2, 3, 4, "Andrea", { age: 3, address: 12 }];
+type Elements = number | string | { age: number; address: number };
+const array1: Elements[] = [1, 2, 3, 4, "Andrea", { age: 3, address: 12 }];
