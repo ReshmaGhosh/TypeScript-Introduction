@@ -4,7 +4,6 @@
 let firstName = "Reshma";
 const randomNumber = 3;
 let phoneNumber = "1-770-736-8031 x56442";
-// object
 const userName = {
     firstName: "Andrea",
     age: 5,

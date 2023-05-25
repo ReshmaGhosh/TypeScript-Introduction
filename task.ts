@@ -3,18 +3,19 @@
 const a = 5;
 
 // function
-function addNumber(a, b):{
+function addNumber(a: number, b: number): number {
   return a + b;
 }
 
-function greeting(firstName) {
+function greeting(firstName: string): void {
   console.log(firstName);
 }
+
 // object
-const user = { name: "Andrea" };
+const user: {} = { name: "Andrea" };
 
 // array
-const numberArray = [1, 2, 3];
+const numberArray: number[] = [1, 2, 3];
 
 const productList = [
   {

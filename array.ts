@@ -1,6 +1,6 @@
 // add type for productList
 
-type Product = {
+type Products = {
   id: number;
   title: string;
   price: number;
@@ -12,7 +12,7 @@ type Product = {
     count: number;
   };
 };
-const productList1: Product[] = [
+const productList1: Products[] = [
   {
     id: 1,
     title: "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",

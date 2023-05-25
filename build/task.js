@@ -1,7 +1,10 @@
 "use strict";
 // basic types: string, number, boolean,void
 const a = 5;
-return a + b;
+// function
+function addNumber(a, b) {
+    return a + b;
+}
 function greeting(firstName) {
     console.log(firstName);
 }
