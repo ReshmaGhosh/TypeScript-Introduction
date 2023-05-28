@@ -12,7 +12,7 @@ function greeting(firstName: string): void {
 }
 
 // object
-const user: {} = { name: "Andrea" };
+const user: { name: string } = { name: "Andrea" };
 
 // array
 const numberArray: number[] = [1, 2, 3];
